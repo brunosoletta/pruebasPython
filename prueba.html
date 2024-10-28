@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludo Personalizado</title>
+    <script>
+        function saludar() {
+            const nombre = prompt("¿Cuál es tu nombre?");
+            if (nombre) {
+                alert("¡Hola, " + nombre + "! Bienvenido a la página.");
+            } else {
+                alert("¡Hola! Bienvenido a la página.");
+            }
+        }
+    </script>
+</head>
+<body onload="saludar()">
+    <h1>Bienvenido</h1>
+    <p>Por favor, revisa el saludo que hemos preparado para ti.</p>
+</body>
+</html>
